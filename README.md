@@ -41,7 +41,7 @@ etc...
 |   ├── login-failure.hbs （ログイン失敗時）
 |   ├── login.hbs （ログインフォーム入力）
 |   ├── signup-failure.hbs （サインアップ失敗時）
-|   ├── signup-success.hbs
+|   ├── signup-success.hbs （サインアップ成功時）
 |   └── signup.hbs （サインアップフォーム入力）
 |
 ```
