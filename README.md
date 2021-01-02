@@ -65,3 +65,7 @@ Listening on port 3000
   * http://localhost:3000/users/login  
 * サインアップフォーム
   * http://localhost:3000/uesrs/signup
+
+## アプリの動作
+アプリの挙動としてはこんな感じになる  
+![動作チェック](https://github.com/hugodeblog/node-passport/blob/images/node_passport.gif)
