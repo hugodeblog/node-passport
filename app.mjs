@@ -40,9 +40,10 @@ const sessionStore  = new FileStore({ path: "sessions" });
 app.use(session({
     store: sessionStore,
     secret: sessionSecret,
-    resave: true,
-    saveUninitialized: true,
-    name: sessionCookieName
+    resave: false,
+    saveUninitialized: false,
+    name: sessionCookieName,
+    cookie: {maxAge: 60*60*1000*24*7, secure: false}
 }));
 initPassport(app);
 
